@@ -1,6 +1,7 @@
 // ESP32 9 Touch Button
 // foxjony / 28.03.2026
 
+// Button contact pad: 10 x 10 mm
 // u[0]-u[8] - Status Button: -3 No Press, 3 - Press
 // Press User Button > 3s - Reboot Chip (Watchdog Reset)
 
