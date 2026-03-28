@@ -1,4 +1,4 @@
-// ESP32 WorkTime (9 Touch Button)
+// ESP32 9 Touch Button
 // foxjony / 28.03.2026
 
 // u[0]-u[8] - Status Button: -5 No Press, 5 - Press
