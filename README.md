@@ -8,10 +8,10 @@
 ![Grafic](https://github.com/foxjony/esp32_touch_button/blob/main/grafic.png)
 
 ## Out for "Serial Port"
--3 -3 -3 -3 -3 -3 -3 -3 -3   (No Press)
--3 -2 -3 -3 -3 -3 -3 -3 -3   (Press)
--3 -1 -3 -3 -3 -3 -3 -3 -3   (Press)
--3  0 -3 -3 -3 -3 -3 -3 -3   (Press)
--3  1 -3 -3 -3 -3 -3 -3 -3   (Press)
--3  2 -3 -3 -3 -3 -3 -3 -3   (Press)
--3  3 -3 -3 -3 -3 -3 -3 -3   (Press)
+- -3 -3 -3 -3 -3 -3 -3 -3 -3   (No Press)
+- -3 -2 -3 -3 -3 -3 -3 -3 -3   (Press)
+- -3 -1 -3 -3 -3 -3 -3 -3 -3   (Press)
+- -3  0 -3 -3 -3 -3 -3 -3 -3   (Press)
+- -3  1 -3 -3 -3 -3 -3 -3 -3   (Press)
+- -3  2 -3 -3 -3 -3 -3 -3 -3   (Press)
+- -3  3 -3 -3 -3 -3 -3 -3 -3   (Press)
