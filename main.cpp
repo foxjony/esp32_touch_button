@@ -1,7 +1,7 @@
 // ESP32 9 Touch Button
 // foxjony / 28.03.2026
 
-// u[0]-u[8] - Status Button: -5 No Press, 5 - Press
+// u[0]-u[8] - Status Button: -3 No Press, 3 - Press
 // Press User Button > 3s - Reboot Chip (Watchdog Reset)
 
 /*
@@ -38,10 +38,10 @@ void read_Touch_Avg() {
       // Out Status Button for "Arduino Plotter" or "Serial Port"
       for (q=0; q<9; q++) {
         if (t[q]+c[q] < b) {
-          if (u[q] < 5) {u[q]++;}
+          if (u[q] < 3) {u[q]++;}
           else {Serial.printf("%d %d %d %d %d %d %d %d %d\r\n", u[0], u[1], u[2], u[3], u[4], u[5], u[6], u[7], u[8]);}
         } else {
-          if (u[q] > -5) {u[q]--;}
+          if (u[q] > -3) {u[q]--;}
           else {Serial.printf("%d %d %d %d %d %d %d %d %d\r\n", u[0], u[1], u[2], u[3], u[4], u[5], u[6], u[7], u[8]);}
         }
       }
