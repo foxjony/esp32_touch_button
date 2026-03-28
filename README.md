@@ -1,5 +1,5 @@
 # esp32_touch_button
-ESP32 can read some pins as touch buttons (GPIO 4, 2, 15, 13, 12, 14, 27, 33, 32). Added filters and calibration to make it work reliably.
+ESP32 can read some pins as touch buttons (GPIO 4, 2, 15, 13, 12, 14, 27, 33, 32). Added filters and calibration to make it work reliably. IDE VSCode PlatformIO.
 
 - Button contact pad: 10 x 10 mm.
 - u[0]-u[8] - Status Button: -3 No Press, 3 - Press.
